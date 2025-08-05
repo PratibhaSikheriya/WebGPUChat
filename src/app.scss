@@ -210,6 +210,24 @@ main {
     }
   }
 
+        /* in your app.scss, alongside your other rules */
+
+.loading {
+  /* solid white: */
+  color: #ffffff;
+
+  /* —or— for a soft, fading yellow, uncomment these: */
+  /* color: rgba(255, 255, 0, 0.8);
+     animation: pulse 2s ease-in-out infinite; */
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50%      { opacity: 1;   }
+}
+
+
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
