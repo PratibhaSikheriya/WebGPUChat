@@ -1,12 +1,23 @@
-# React + Vite
+# Web-GPU Chat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight AI chatbot built with Next.js and the Vercel AI SDK.  
+Live: [web-gpu-chat.vercel.app](https://web-gpu-chat.vercel.app)
 
-Currently, two official plugins are available:
+## 🔮 Model Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Model**: `grok-2-1212` (by xAI) – default in the Vercel AI Chatbot template  
+- Easily switchable to OpenAI, Anthropic, Cohere, etc.
 
-## Expanding the ESLint configuration
+## ⚙️ Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repo  
+2. Install dependencies: `npm install`  
+3. Add `.env.local` with your API keys  
+4. Run: `npm run dev`
+
+## 🌐 Deploy
+
+Deployed on [Vercel](https://vercel.com)
+
+
+
